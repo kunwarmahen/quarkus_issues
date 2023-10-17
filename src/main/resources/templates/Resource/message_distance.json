@@ -1,0 +1,14 @@
+ {  
+	"success": true,
+    "list" :
+		[
+		{#each cp}
+		{
+			"id": {it.model.id},	
+			"city": "{it.model.city}",
+			"distance": "{it.distance}"
+		}
+		{#if it_hasNext},{/if}
+		{/each}
+		]
+}

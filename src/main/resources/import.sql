@@ -1,0 +1,2 @@
+INSERT INTO model(city, latitude, longitude) VALUES ('Morrisville', 35.84264235504928, -78.83737886262294);
+INSERT INTO model(city, latitude, longitude) VALUES ('Cary', 35.78243411662205, -78.78859983090534);
