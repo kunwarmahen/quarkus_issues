@@ -1,5 +1,7 @@
 Run
 
+Create quarkus_issuedb database instance on postgresql database with user id/passowrd quarkus_test/quarkus_test. Or you can change values under application.properties.
+
 ./mvnw clean quarkus:dev
 
 And test by invoking following curl commands in order. It should work without any issues
